@@ -1,0 +1,7 @@
+front_home:
+    path: /
+    defaults: { _controller: frontBundle:Default:index }
+
+front_reference:
+    path: /references
+    defaults : { _controller : frontBundle:Default:reference }

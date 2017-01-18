@@ -1,0 +1,13 @@
+assetic:
+    debug: %kernel.debug%
+    use_controller: false
+    bundles: [ ]
+    filters:
+         cssrewrite: ~
+
+mopa_bootstrap:
+    form:
+        show_legend: false # default is true
+        show_child_legend: false # default is true
+        error_type: block # or inline which is default
+    menu: ~  # enables twig helpers for menu
